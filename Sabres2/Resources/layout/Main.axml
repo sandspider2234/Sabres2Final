@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ff37c3e0">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="424.8dp"
+        android:id="@+id/space1"
+        android:background="#ffe3e3e3" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="125.1dp"
+        android:id="@+id/linearLayout1"
+        android:gravity="end"
+        android:layout_gravity="end"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <ImageButton
+            android:src="@drawable/buttonG"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton1"
+            android:layout_weight="0.5"
+            android:scaleType="fitXY"
+            android:paddingRight="2sp"
+            android:paddingBottom="2sp"
+            android:paddingEnd="0sp"
+            android:paddingLeft="2sp"
+            android:paddingStart="0sp"
+            android:paddingTop="0sp" />
+        <ImageButton
+            android:src="@drawable/buttonP"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton2"
+            android:layout_weight="0.5"
+            android:paddingBottom="2sp"
+            android:paddingEnd="0sp"
+            android:paddingLeft="2sp"
+            android:paddingRight="2sp"
+            android:paddingStart="0sp"
+            android:scaleType="fitXY"
+            android:paddingTop="0sp" />
+        <ImageButton
+            android:src="@drawable/buttonY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton3"
+            android:layout_weight="0.5"
+            android:scaleType="fitXY"
+            android:paddingBottom="2sp"
+            android:paddingEnd="0sp"
+            android:paddingLeft="2sp"
+            android:paddingRight="2sp"
+            android:paddingStart="0sp"
+            android:paddingTop="0sp" />
+    </LinearLayout>
+</LinearLayout>
