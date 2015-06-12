@@ -8,10 +8,9 @@ using Android.OS;
 
 namespace Sabres2
 {
-    [Activity(Label = "Sabres2", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Sabres", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -20,7 +19,15 @@ namespace Sabres2
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-           }
+            ImageButton travelButton = FindViewById<ImageButton>(Resource.Id.TravelB);
+            travelButton.Click += (sender, args) =>
+            {
+                StartActivity(typeof(Travel));
+            };
+
+
+
+        }
     }
 }
 

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1">
+    <TextView
+        p1:text="Difficulty:"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="137.9dp"
+        p1:layout_height="30dp"
+        p1:id="@+id/textView1"
+        p1:layout_marginLeft="5dp"
+        p1:layout_marginTop="10dp" />
+    <CheckBox
+        p1:text="Beginner"
+        p1:layout_width="110.6dp"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/textView1"
+        p1:id="@+id/checkBox1" />
+    <CheckBox
+        p1:text="Intermediate"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox1"
+        p1:id="@+id/checkBox2" />
+    <CheckBox
+        p1:text="Expert"
+        p1:layout_width="wrap_content"
+        p1:layout_height="28.5dp"
+        p1:layout_below="@id/checkBox2"
+        p1:id="@+id/checkBox3"
+        p1:layout_marginBottom="20dp" />
+    <TextView
+        p1:text="Location:"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox3"
+        p1:id="@+id/location"
+        p1:layout_marginLeft="5dp" />
+    <CheckBox
+        p1:text="South"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/location"
+        p1:id="@+id/south" />
+    <CheckBox
+        p1:text="Center"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/south"
+        p1:id="@+id/center" />
+    <CheckBox
+        p1:text="North"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/center"
+        p1:id="@+id/north"
+        p1:layout_marginBottom="20dp" />
+    <TextView
+        p1:text="More Filters:"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/north"
+        p1:id="@+id/morefilter"
+        p1:layout_marginLeft="5dp" />
+    <CheckBox
+        p1:text="Disabled"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/morefilter"
+        p1:id="@+id/disabled" />
+    <CheckBox
+        p1:text="Family"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/disabled"
+        p1:id="@+id/family" />
+    <CheckBox
+        p1:text="Circular"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/family"
+        p1:id="@+id/circular" />
+    <TextView
+        p1:text="Rating:"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/circular"
+        p1:id="@+id/rating"
+        p1:layout_marginLeft="5dp"
+        p1:layout_marginTop="10dp" />
+    <RatingBar
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/rating"
+        p1:id="@+id/ratingBar1" />
+    <Button
+        p1:text="Filter!"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/ratingBar1"
+        p1:id="@+id/returnButton"
+        p1:layout_centerHorizontal="true" />
+</RelativeLayout>
