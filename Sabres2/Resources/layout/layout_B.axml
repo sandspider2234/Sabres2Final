@@ -82,25 +82,30 @@
                 p1:layout_height="wrap_content"
                 p1:layout_marginRight="0.0dp">
                 <ImageButton
-                    p1:src="@drawable/sataf"
-                    p1:layout_width="match_parent"
+                    p1:src="@drawable/Acadia"
+                    p1:layout_width="148.9dp"
                     p1:layout_height="140dp"
                     p1:id="@+id/imageButton1"
                     p1:layout_gravity="left"
                     p1:scaleType="fitXY"
                     p1:padding="2dp"
                     p1:adjustViewBounds="true"
-                    p1:cropToPadding="true" />
+                    p1:cropToPadding="true"
+                    p1:background="@drawable/acadia"
+                    p1:layout_marginLeft="2dp"
+                    p1:layout_marginRight="0.0dp"
+                    p1:layout_marginBottom="2dp" />
             </LinearLayout>
             <ImageButton
-                p1:src="@drawable/banyas"
+                p1:src="@drawable/hasharon"
                 p1:layout_width="match_parent"
                 p1:layout_height="140dp"
                 p1:id="@+id/imageButton2"
                 p1:scaleType="fitXY"
-                p1:padding="2dp" />
+                p1:padding="2dp"
+                p1:layout_marginBottom="2dp" />
             <ImageButton
-                p1:src="@drawable/ramon"
+                p1:src="@drawable/jerusalem5"
                 p1:layout_width="match_parent"
                 p1:layout_height="140dp"
                 p1:id="@+id/imageButton3"
@@ -124,7 +129,7 @@
                 p1:layout_marginBottom="10dp"
                 p1:layout_marginTop="5dp">
                 <TextView
-                    p1:text="The Sataph is located in steep slopes that viewes to Nahal Soreq, slightly west of Jerusalem. In this place until  the War of Independence was the village Stef, which its ancient name is unknown. In the area of the ancient.... "
+                    p1:text="Acadia Beach, named Dan Acadia Hotel located over the beach, better known as the Beach Daboosh. The name Daboosh operated restaurant on the beach for 50 years and recently reopened. You can find the beach sand strip..."
                     p1:textAppearance="?android:attr/textAppearanceSmall"
                     p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
@@ -154,7 +159,7 @@
                 p1:layout_height="130dp"
                 p1:id="@+id/linearLayout12">
                 <TextView
-                    p1:text="Makhtesh Ramon is a geological feature of Israel's Negev desert. Located at the peak of Mount Negev, some 85 km south of the city of Beersheba, the landform is not actually an impact..."
+                    p1:text="Jerusalem Beach is A spacious beach located close to the Opera House. Beach easy access on public transport and paid parking lots around it. The southern part of the beach (beach redemption) area for kite surfing..."
                     p1:textAppearance="?android:attr/textAppearanceSmall"
                     p1:layout_width="225.0dp"
                     p1:layout_height="match_parent"

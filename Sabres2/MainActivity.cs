@@ -25,6 +25,17 @@ namespace Sabres2
                 StartActivity(typeof(Travel));
             };
 
+			ImageButton beachButton = FindViewById<ImageButton> (Resource.Id.imageButton2);
+			beachButton.Click += (sender, args) => 
+			{
+				StartActivity(typeof(Beach));
+			};
+
+			ImageButton museumButton = FindViewById<ImageButton> (Resource.Id.museumButton);
+			museumButton.Click += (sender, args) => 
+			{
+				StartActivity(typeof(Museum));
+			};
 
 
         }

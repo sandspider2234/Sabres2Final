@@ -1,10 +1,9 @@
-﻿<Properties StartupItem="Sabres2\Sabres2.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (Lollipop)" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\..\Program Files (x86)\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets">
+﻿<Properties StartupItem="Sabres2/Sabres2.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Sabres2\MainActivity.cs" Line="14" Column="6" />
-      <File FileName="Sabres2\Travel.cs" Line="26" Column="4" />
-      <File FileName="..\..\..\..\..\..\Program Files (x86)\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets" Line="1746" Column="31" />
+      <File FileName="Sabres2/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="Sabres2/SatafAct.cs" Line="22" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

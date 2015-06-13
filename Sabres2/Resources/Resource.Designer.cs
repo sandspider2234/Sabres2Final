@@ -45,25 +45,49 @@ namespace Sabres2
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int buttonG = 2130837504;
+			public const int Acadia = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int buttonP = 2130837505;
+			public const int banyas = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int buttonY = 2130837506;
+			public const int buttonG = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int Icon = 2130837507;
+			public const int buttonP = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int map124 = 2130837508;
+			public const int buttonY = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int map43 = 2130837509;
+			public const int hasharon = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int monoandroidsplash = 2130837510;
+			public const int Icon = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int jerusalem5 = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int map124 = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int map12f111 = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int map43 = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int monoandroidsplash = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int ramon = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int sataf = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int Weather = 2130837518;
 			
 			static Drawable()
 			{
@@ -78,71 +102,188 @@ namespace Sabres2
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060015
-			public const int TravelB = 2131099669;
-			
-			// aapt resource value: 0x7f060011
-			public const int button1 = 2131099665;
-			
-			// aapt resource value: 0x7f060007
-			public const int center = 2131099655;
-			
-			// aapt resource value: 0x7f060002
-			public const int checkBox1 = 2131099650;
-			
-			// aapt resource value: 0x7f060003
-			public const int checkBox2 = 2131099651;
-			
-			// aapt resource value: 0x7f060004
-			public const int checkBox3 = 2131099652;
-			
-			// aapt resource value: 0x7f06000c
-			public const int circular = 2131099660;
-			
-			// aapt resource value: 0x7f06000a
-			public const int disabled = 2131099658;
-			
-			// aapt resource value: 0x7f06000b
-			public const int family = 2131099659;
-			
-			// aapt resource value: 0x7f060013
-			public const int imageButton1 = 2131099667;
+			// aapt resource value: 0x7f060029
+			public const int TravelB = 2131099689;
 			
 			// aapt resource value: 0x7f060014
-			public const int imageButton2 = 2131099668;
-			
-			// aapt resource value: 0x7f060010
-			public const int linearLayout1 = 2131099664;
-			
-			// aapt resource value: 0x7f060005
-			public const int location = 2131099653;
-			
-			// aapt resource value: 0x7f060009
-			public const int morefilter = 2131099657;
-			
-			// aapt resource value: 0x7f060008
-			public const int north = 2131099656;
-			
-			// aapt resource value: 0x7f06000d
-			public const int rating = 2131099661;
-			
-			// aapt resource value: 0x7f06000e
-			public const int ratingBar1 = 2131099662;
-			
-			// aapt resource value: 0x7f060000
-			public const int relativeLayout1 = 2131099648;
-			
-			// aapt resource value: 0x7f06000f
-			public const int returnButton = 2131099663;
-			
-			// aapt resource value: 0x7f060006
-			public const int south = 2131099654;
+			public const int button1 = 2131099668;
 			
 			// aapt resource value: 0x7f060012
-			public const int space1 = 2131099666;
+			public const int button2 = 2131099666;
+			
+			// aapt resource value: 0x7f060035
+			public const int center = 2131099701;
+			
+			// aapt resource value: 0x7f060006
+			public const int checkBox1 = 2131099654;
+			
+			// aapt resource value: 0x7f06000f
+			public const int checkBox10 = 2131099663;
+			
+			// aapt resource value: 0x7f060010
+			public const int checkBox11 = 2131099664;
+			
+			// aapt resource value: 0x7f06002b
+			public const int checkBox14 = 2131099691;
+			
+			// aapt resource value: 0x7f06002c
+			public const int checkBox15 = 2131099692;
+			
+			// aapt resource value: 0x7f06002d
+			public const int checkBox16 = 2131099693;
+			
+			// aapt resource value: 0x7f06002f
+			public const int checkBox17 = 2131099695;
+			
+			// aapt resource value: 0x7f060030
+			public const int checkBox18 = 2131099696;
+			
+			// aapt resource value: 0x7f060031
+			public const int checkBox19 = 2131099697;
+			
+			// aapt resource value: 0x7f060007
+			public const int checkBox2 = 2131099655;
+			
+			// aapt resource value: 0x7f060032
+			public const int checkBox20 = 2131099698;
+			
+			// aapt resource value: 0x7f060008
+			public const int checkBox3 = 2131099656;
+			
+			// aapt resource value: 0x7f060009
+			public const int checkBox4 = 2131099657;
+			
+			// aapt resource value: 0x7f06000a
+			public const int checkBox5 = 2131099658;
+			
+			// aapt resource value: 0x7f06000b
+			public const int checkBox6 = 2131099659;
+			
+			// aapt resource value: 0x7f06000c
+			public const int checkBox7 = 2131099660;
+			
+			// aapt resource value: 0x7f06000d
+			public const int checkBox8 = 2131099661;
+			
+			// aapt resource value: 0x7f06000e
+			public const int checkBox9 = 2131099662;
+			
+			// aapt resource value: 0x7f06003a
+			public const int circular = 2131099706;
+			
+			// aapt resource value: 0x7f060038
+			public const int disabled = 2131099704;
+			
+			// aapt resource value: 0x7f060039
+			public const int family = 2131099705;
+			
+			// aapt resource value: 0x7f06001f
+			public const int imageButton1 = 2131099679;
+			
+			// aapt resource value: 0x7f060020
+			public const int imageButton2 = 2131099680;
+			
+			// aapt resource value: 0x7f060021
+			public const int imageButton3 = 2131099681;
+			
+			// aapt resource value: 0x7f060002
+			public const int imageView1 = 2131099650;
+			
+			// aapt resource value: 0x7f060000
+			public const int linearLayout1 = 2131099648;
+			
+			// aapt resource value: 0x7f060023
+			public const int linearLayout10 = 2131099683;
+			
+			// aapt resource value: 0x7f060024
+			public const int linearLayout11 = 2131099684;
+			
+			// aapt resource value: 0x7f060025
+			public const int linearLayout12 = 2131099685;
+			
+			// aapt resource value: 0x7f060015
+			public const int linearLayout2 = 2131099669;
+			
+			// aapt resource value: 0x7f060016
+			public const int linearLayout3 = 2131099670;
+			
+			// aapt resource value: 0x7f060018
+			public const int linearLayout4 = 2131099672;
+			
+			// aapt resource value: 0x7f06001a
+			public const int linearLayout5 = 2131099674;
+			
+			// aapt resource value: 0x7f06001c
+			public const int linearLayout6 = 2131099676;
+			
+			// aapt resource value: 0x7f06001e
+			public const int linearLayout7 = 2131099678;
+			
+			// aapt resource value: 0x7f06001d
+			public const int linearLayout8 = 2131099677;
+			
+			// aapt resource value: 0x7f060022
+			public const int linearLayout9 = 2131099682;
+			
+			// aapt resource value: 0x7f060033
+			public const int location = 2131099699;
+			
+			// aapt resource value: 0x7f060037
+			public const int morefilter = 2131099703;
+			
+			// aapt resource value: 0x7f060028
+			public const int museumButton = 2131099688;
+			
+			// aapt resource value: 0x7f060036
+			public const int north = 2131099702;
+			
+			// aapt resource value: 0x7f060017
+			public const int radioButton1 = 2131099671;
+			
+			// aapt resource value: 0x7f060019
+			public const int radioButton2 = 2131099673;
+			
+			// aapt resource value: 0x7f06001b
+			public const int radioButton3 = 2131099675;
+			
+			// aapt resource value: 0x7f06003b
+			public const int rating = 2131099707;
+			
+			// aapt resource value: 0x7f060011
+			public const int ratingBar1 = 2131099665;
+			
+			// aapt resource value: 0x7f060005
+			public const int relativeLayout1 = 2131099653;
+			
+			// aapt resource value: 0x7f06003c
+			public const int returnButton = 2131099708;
+			
+			// aapt resource value: 0x7f060003
+			public const int scrollView1 = 2131099651;
+			
+			// aapt resource value: 0x7f060013
+			public const int searchView1 = 2131099667;
+			
+			// aapt resource value: 0x7f060034
+			public const int south = 2131099700;
+			
+			// aapt resource value: 0x7f060027
+			public const int space1 = 2131099687;
 			
 			// aapt resource value: 0x7f060001
 			public const int textView1 = 2131099649;
+			
+			// aapt resource value: 0x7f060004
+			public const int textView2 = 2131099652;
+			
+			// aapt resource value: 0x7f060026
+			public const int textView3 = 2131099686;
+			
+			// aapt resource value: 0x7f06002a
+			public const int textView5 = 2131099690;
+			
+			// aapt resource value: 0x7f06002e
+			public const int textView6 = 2131099694;
 			
 			static Id()
 			{
@@ -158,13 +299,31 @@ namespace Sabres2
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Filters = 2130903040;
+			public const int AfterBeachLay = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int layout_T = 2130903041;
+			public const int AfterSataf = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Main = 2130903042;
+			public const int BeachFilters = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int layout_B = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int layout_M = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int layout_T = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Main = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int MuseumFilters = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int TrailFilters = 2130903048;
 			
 			static Layout()
 			{

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <TextView
+        p1:text="Weather"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="30dp"
+        p1:id="@+id/textView1"
+        p1:layout_marginTop="5dp"
+        p1:layout_marginLeft="150dp" />
+    <ImageView
+        p1:src="@drawable/weather"
+        p1:layout_width="match_parent"
+        p1:layout_height="350dp"
+        p1:id="@+id/imageView1"
+        p1:scaleType="fitCenter" />
+    <ScrollView
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="148.9dp"
+        p1:id="@+id/scrollView1"
+        p1:scrollbars="vertical"
+        p1:scrollbarStyle="insideOverlay">
+        <TextView
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/textView2"
+            p1:scrollbars="vertical"
+            p1:scrollbarStyle="outsideInset"
+            p1:textDirection="rtl"
+            p1:layoutDirection="rtl"
+            p1:text="This is the forcast for today. " />
+    </ScrollView>
+</LinearLayout>

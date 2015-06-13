@@ -45,11 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FilterDialog.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Travel.cs" />
+    <Compile Include="Beach.cs" />
+    <Compile Include="TravelFilterDialog.cs" />
+    <Compile Include="BeachFilterDialog.cs" />
+    <Compile Include="Museum.cs" />
+    <Compile Include="MuseumFilterDialog.cs" />
+    <Compile Include="SatafAct.cs" />
+    <Compile Include="AfterBAct.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -58,9 +64,24 @@
     <AndroidResource Include="Resources\layout\layout_T.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Filters.axml" />
     <AndroidResource Include="Resources\drawable\map124.png" />
     <AndroidResource Include="Resources\drawable\map43.png" />
+    <AndroidResource Include="Resources\layout\layout_B.axml" />
+    <AndroidResource Include="Resources\layout\BeachFilters.axml" />
+    <AndroidResource Include="Resources\layout\TrailFilters.axml" />
+    <AndroidResource Include="Resources\layout\layout_M.axml" />
+    <AndroidResource Include="Resources\layout\MuseumFilters.axml" />
+    <AndroidResource Include="Resources\drawable\sataf.png" />
+    <AndroidResource Include="Resources\drawable\ramon.png" />
+    <AndroidResource Include="Resources\drawable\banyas.png" />
+    <AndroidResource Include="Resources\layout\AfterSataf.axml" />
+    <AndroidResource Include="Resources\drawable\map12f111.png" />
+    <AndroidResource Include="Resources\drawable\Acadia.png" />
+    <AndroidResource Include="Resources\layout\AfterBeachLay.axml" />
+    <AndroidResource Include="Resources\drawable\Weather.png" />
+    <AndroidResource Include="Resources\drawable\book.png" />
+    <AndroidResource Include="Resources\drawable\museum.png" />
+    <AndroidResource Include="Resources\drawable\islam.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -72,7 +93,9 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\buttonG.png" />
@@ -88,6 +111,12 @@
       <Version>22.0.0.0</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\hasharon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\jerusalem5.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

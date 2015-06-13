@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1">
+    <TextView
+        p1:text="Type:"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1"
+        p1:layout_marginLeft="5dp" />
+    <CheckBox
+        p1:text="Separate"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/textView1"
+        p1:id="@+id/checkBox1" />
+    <CheckBox
+        p1:text="Nudist"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox1"
+        p1:id="@+id/checkBox2" />
+    <CheckBox
+        p1:text="Stones"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox2"
+        p1:id="@+id/checkBox3" />
+    <CheckBox
+        p1:text="Surfing"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox3"
+        p1:id="@+id/checkBox4" />
+    <CheckBox
+        p1:text="Nature Reserves"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox4"
+        p1:id="@+id/checkBox5" />
+    <CheckBox
+        p1:text="LGBT"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox5"
+        p1:id="@+id/checkBox6" />
+    <CheckBox
+        p1:text="For Disabled"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox6"
+        p1:id="@+id/checkBox7" />
+    <CheckBox
+        p1:text="Camping"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox7"
+        p1:id="@+id/checkBox8"
+        p1:layout_marginBottom="20dp" />
+    <TextView
+        p1:text="Location:"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox8"
+        p1:id="@+id/textView2"
+        p1:layout_marginLeft="5dp" />
+    <CheckBox
+        p1:text="North"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/textView2"
+        p1:id="@+id/checkBox9" />
+    <CheckBox
+        p1:text="Center"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox9"
+        p1:id="@+id/checkBox10" />
+    <CheckBox
+        p1:text="South"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox10"
+        p1:id="@+id/checkBox11" />
+    <RatingBar
+        p1:layout_width="236.3dp"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox11"
+        p1:id="@+id/ratingBar1"
+        p1:layout_centerInParent="true" />
+    <Button
+        p1:text="Visit!"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/ratingBar1"
+        p1:id="@+id/button2"
+        p1:layout_centerInParent="true" />
+</RelativeLayout>

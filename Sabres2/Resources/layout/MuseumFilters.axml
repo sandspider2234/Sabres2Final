@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1">
+    <TextView
+        p1:text="Category:"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1"
+        p1:layout_marginLeft="5dp"
+        p1:layout_marginTop="5dp" />
+    <CheckBox
+        p1:text="Art"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/textView1"
+        p1:id="@+id/checkBox1" />
+    <CheckBox
+        p1:text="Science"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox1"
+        p1:id="@+id/checkBox2" />
+    <CheckBox
+        p1:text="History"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox2"
+        p1:id="@+id/checkBox3" />
+    <CheckBox
+        p1:text="Nature"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox3"
+        p1:id="@+id/checkBox4" />
+    <CheckBox
+        p1:text="Technology"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox4"
+        p1:id="@+id/checkBox5" />
+    <CheckBox
+        p1:text="Religious"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox5"
+        p1:id="@+id/checkBox6"
+        p1:layout_marginBottom="20dp" />
+    <TextView
+        p1:text="More Filters:"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox6"
+        p1:id="@+id/textView2"
+        p1:layout_marginLeft="5dp" />
+    <CheckBox
+        p1:text="Disabled"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/textView2"
+        p1:id="@+id/checkBox7" />
+    <CheckBox
+        p1:text="Family"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/checkBox7"
+        p1:id="@+id/checkBox8"
+        p1:layout_marginBottom="5dp" />
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:layout_width="169.1dp"
+        p1:layout_height="342.1dp"
+        p1:layout_toRightOf="@id/textView1"
+        p1:id="@+id/linearLayout1"
+        p1:layout_marginLeft="0.0dp"
+        p1:layout_alignParentRight="false">
+        <TextView
+            p1:text="Location:"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="127.7dp"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/textView5"
+            p1:layout_marginLeft="50dp"
+            p1:layout_marginTop="5dp" />
+        <CheckBox
+            p1:text="South"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/checkBox14"
+            p1:layout_marginLeft="45dp" />
+        <CheckBox
+            p1:text="Center"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/checkBox15"
+            p1:layout_marginLeft="45dp" />
+        <CheckBox
+            p1:text="North"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/checkBox16"
+            p1:layout_marginLeft="45dp"
+            p1:layout_marginBottom="20dp" />
+        <TextView
+            p1:text="Visiting Time:"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/textView6"
+            p1:layout_marginLeft="45dp" />
+        <CheckBox
+            p1:text="0-30 min"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/checkBox17"
+            p1:layout_marginLeft="45dp" />
+        <CheckBox
+            p1:text="30-60 min"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/checkBox18"
+            p1:layout_marginLeft="45dp" />
+        <CheckBox
+            p1:text="60-120 min"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/checkBox19"
+            p1:layout_marginLeft="45dp" />
+        <CheckBox
+            p1:text="120+ min"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/checkBox20"
+            p1:layout_marginLeft="45dp" />
+    </LinearLayout>
+    <RatingBar
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/linearLayout1"
+        p1:id="@+id/ratingBar1"
+        p1:layout_centerInParent="true" />
+    <Button
+        p1:text="Visit!"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/ratingBar1"
+        p1:id="@+id/button1"
+        p1:layout_centerInParent="true" />
+</RelativeLayout>

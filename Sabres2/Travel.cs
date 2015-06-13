@@ -16,6 +16,7 @@ namespace Sabres2
     public class Travel : Activity
     {
         private Button _dialog;
+		private ImageButton _but;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -28,13 +29,20 @@ namespace Sabres2
 
             _dialog.Click += _b_Click;
 
+			_but = FindViewById<ImageButton> (Resource.Id.imageButton1);
+
+			_but.Click += (sender, e) => 
+			{
+				StartActivity(typeof(SatafAct));
+				
+			};
 
         }
 
         void _b_Click(object sender, EventArgs e)
         {
             var transaction = FragmentManager.BeginTransaction();
-            var dialog = new FilterDialog();
+            var dialog = new TravelFilterDialog();
             dialog.Show(transaction, "dialog fragment");
 
         }

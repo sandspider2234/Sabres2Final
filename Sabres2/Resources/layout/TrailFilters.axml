@@ -39,7 +39,7 @@
         p1:id="@+id/location"
         p1:layout_marginLeft="5dp" />
     <CheckBox
-        p1:text="South"
+        p1:text="North"
         p1:layout_width="wrap_content"
         p1:layout_height="wrap_content"
         p1:layout_below="@id/location"
@@ -51,7 +51,7 @@
         p1:layout_below="@id/south"
         p1:id="@+id/center" />
     <CheckBox
-        p1:text="North"
+        p1:text="South"
         p1:layout_width="wrap_content"
         p1:layout_height="wrap_content"
         p1:layout_below="@id/center"

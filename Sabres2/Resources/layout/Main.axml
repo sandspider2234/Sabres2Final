@@ -24,7 +24,7 @@
             android:src="@drawable/buttonG"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/imageButton1"
+            android:id="@+id/museumButton"
             android:layout_weight="0.5"
             android:scaleType="fitXY"
             android:paddingRight="2sp"

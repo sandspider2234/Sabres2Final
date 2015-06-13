@@ -13,13 +13,13 @@ using Android.Widget;
 
 namespace Sabres2
 {
-    class FilterDialog : DialogFragment
+    class TravelFilterDialog : DialogFragment
     {
 		private Button rButton;
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             base.OnCreateView(inflater, container, savedInstanceState);
-			var view = inflater.Inflate(Resource.Layout.Filters, container, false);
+			var view = inflater.Inflate(Resource.Layout.TrailFilters, container, false);
 
 			rButton = view.FindViewById<Button> (Resource.Id.returnButton);
 
